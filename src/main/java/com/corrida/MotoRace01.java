@@ -10,7 +10,6 @@ class MotoRace {
 	private static final int NUM_RACES = 10;
 	private static int[] placar = new int[NUM_THREADS];
 	private static int[] pontuacaoCampeonato = new int[NUM_THREADS];
-
 	public static void main(String[] args) {
 		for (int i = 1; i <= NUM_RACES; i++) {
 			System.out.println("\n========== Corrida #" + i + " ==========");
