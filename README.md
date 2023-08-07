@@ -1,8 +1,6 @@
 B4A1 - Contador de vendas
 Condições de conclusão
-A fazer: Fazer um envio
-Aberto: segunda, 31 jul 2023, 08:00
-Vencimento: domingo, 13 ago 2023, 23:59
+
 Nesta atividade vamos exercitar os conhecimentos de streams, date/time api entre outros que já vimos até o momento. 
 
 Faça o download do projeto template abaixo e nele vc encontrará diversos marcadores TODO para serem feitos, implemente cada um deles para cumprir o objetivo da atividade e obter os resultados das vendas conforme os métodos pedem.
