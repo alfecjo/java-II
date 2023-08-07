@@ -82,13 +82,8 @@ public class SalesReader {
                 .map(Sale::getValue)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
-    private boolean containsMonth(Month month, Month[] months) {
-        for (Month m : months) {
-            if (month == m) {
-                return true;
-            }
-        }
-        return false;
+    private boolean containsMonth(Month month, Month... months) {
+        return Arrays.stream(months).anyMatch(m -> m == month);
     }
     public Map<String, Long> countCompletedSalesByDepartment() {
         return sales.stream()

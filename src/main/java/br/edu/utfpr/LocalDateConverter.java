@@ -24,6 +24,7 @@ public class LocalDateConverter extends AbstractBeanField<String, LocalDate> {
             return LocalDate.parse(value, dateFormatter);
         } catch (Exception e) {
             // Caso ocorra algum erro na conversão, lance uma exceção CsvDataTypeMismatchException
+            System.out.println("Error: "+e.getMessage());
             throw new CsvDataTypeMismatchException(e.getMessage());
         }
     }
