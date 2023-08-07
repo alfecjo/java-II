@@ -56,14 +56,11 @@ public class SalesReader {
                 .filter(sale -> Sale.Status.CANCELLED == sale.getStatus())
                 .max(Comparator.comparing(Sale::getSaleDate));
 
-        if (firstCancelledSale.isPresent() && lastCancelledSale.isPresent()) {
-            Sale firstSale = firstCancelledSale.get();
-            Sale lastSale = lastCancelledSale.get();
-            return ChronoUnit.DAYS.between(firstSale.getSaleDate(), lastSale.getSaleDate());
-        } else {
-            // Caso não haja vendas canceladas, retornamos 0 ou outro valor que faça sentido para o contexto.
-            return 0;
-        }
+        return firstCancelledSale.flatMap(firstSale ->
+                lastCancelledSale.map(lastSale ->
+                        ChronoUnit.DAYS.between(firstSale.getSaleDate(), lastSale.getSaleDate())
+                )
+        ).orElse(0L);
     }
     public BigDecimal totalCompletedSalesBySeller(String sellerName) {
         return sales.stream()
