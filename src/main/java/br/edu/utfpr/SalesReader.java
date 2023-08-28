@@ -103,7 +103,6 @@ public class SalesReader {
                 ));
     }
 
-
     public Map<String, BigDecimal> top3BestSellers() {
         return sales.stream()
                 .filter(sale -> Sale.Status.COMPLETED == sale.getStatus())
@@ -117,7 +116,6 @@ public class SalesReader {
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> a, LinkedHashMap::new));
     }
 
-
     //    01 Selecione o nome dos 3 piores vendedores, aqueles que venderam menos (em valores) durante todos os anos.
     public Map<String, BigDecimal> bottom3WorstSellers() {
         return sales.stream()
@@ -130,36 +128,6 @@ public class SalesReader {
                 .sorted(Map.Entry.comparingByValue())  // Ordena em ordem crescente
                 .limit(3)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> a, LinkedHashMap::new));
-    }
-
-
-    public List<String> bottom3WorstSellersNumVendasCompleted() {
-        Map<String, Long> salesCountBySeller = sales.stream()
-                .filter(sale -> Sale.Status.COMPLETED == sale.getStatus())
-                .collect(Collectors.groupingBy(
-                        Sale::getSeller,
-                        Collectors.counting()
-                ));
-
-        return salesCountBySeller.entrySet().stream()
-                .sorted(Map.Entry.comparingByValue())  // Ordena em ordem crescente
-                .limit(3)
-                .map(Map.Entry::getKey)
-                .collect(Collectors.toList());
-    }
-
-    public List<String> bottom3WorstSellersNumVendasCompletedCancelled() {
-        Map<String, Long> salesCountBySeller = sales.stream()
-                .collect(Collectors.groupingBy(
-                        Sale::getSeller,
-                        Collectors.counting()
-                ));
-
-        return salesCountBySeller.entrySet().stream()
-                .sorted(Map.Entry.comparingByValue())  // Ordena em ordem crescente
-                .limit(3)
-                .map(Map.Entry::getKey)
-                .collect(Collectors.toList());
     }
 
     //    02.	Qual o total de vendas caso os seguintes filtros fossem utilizados: vendas completas, no estado do paraná, nos meses de janeiro, junho e dezembro.
@@ -210,5 +178,4 @@ public class SalesReader {
                 .map(Map.Entry::getKey)
                 .orElse("Nenhum gerente encontrado");
     }
-
 }
