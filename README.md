@@ -19,7 +19,7 @@ Exercitar o conceito e a prática de Race Condition e Critical Sections através
 
 3. (10 pts) Uma corrida só inicia após o fim da corrida anterior, ou seja, quando todos os competidores cruzarem a linha de chegada (área crítica)
 
-4. (30 40 pts) O placar da nossa corrida será contabilizado toda vez que um corredor cruzar a linha de chegada (área crítica), o competidor receberá pontos de acordo com sua posição de chegada ou seja: competidor 3 chegou primeiro na área sincronizada, recebe 10 pontos, o competidor 5 chegou em segundo, recebe 9 pontos, e assim sucessivamente até que o ultimo a cruzar a linha de chegada ganhe 1 ponto
+4. (30 pts) O placar da nossa corrida será contabilizado toda vez que um corredor cruzar a linha de chegada (área crítica), o competidor receberá pontos de acordo com sua posição de chegada ou seja: competidor 3 chegou primeiro na área sincronizada, recebe 10 pontos, o competidor 5 chegou em segundo, recebe 9 pontos, e assim sucessivamente até que o ultimo a cruzar a linha de chegada ganhe 1 ponto
 
 5. (10 pts) As 10 corridas formam um campeonato, ganhará aquele que somar o maior número de pontos no campeonato
 
