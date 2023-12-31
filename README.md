@@ -1,10 +1,17 @@
-Corrida de Motocicletas 
+# Java II..
 
-Objetivo:
+## Este material foi desenvolvido em resposta a disciplina 'Java II', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
+🎉 Os projetos, são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
+
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos percistentes, que considero meu caso. Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...
+
+## Corrida de Motocicletas
+
+😵 Objetivo:
 
 Exercitar o conceito e a prática de Race Condition e Critical Sections através do uso de sincronismo de métodos e/ou objetos para simular uma corrida de motos onde o ganhador é aquele que somar mais pontos ao acessar a região crítica (ou linha de chegada).
 
-Requisitos:
+👨‍💻 Requisitos:
 
 1. (10 pts) O programa deve criar no mínimo 10 threads que vão representar cada competidor, cada competidor deve usar o seguinte nome: Competidor #N (onde N é o número da thread)
 
@@ -20,7 +27,7 @@ Requisitos:
 
 podio
 
-Critérios de aceite e avaliação do exercício:
+🕵️ Critérios de aceite e avaliação do exercício:
 
 1. Cada requisito possui um peso que compõe 80 pontos no total, cumpra todos para ter nota máxima, cumpra alguns e sua nota será aplicada conforme cada requisito implementado.
 
@@ -28,7 +35,7 @@ Critérios de aceite e avaliação do exercício:
 
 3. Entrega no prazo, 10 pontos
 
-Importante:
+🎯 Importante:
 
 - Cópias e/ou exercícios duplicados/idênticos serão descartados, apenas os pontos da entrega (se feita no prazo) serão contabilizados.
 
@@ -39,3 +46,33 @@ Importante:
 - O objetivo da atividade também é parte da avaliação!
 
 - Envios com atraso tem o desconto da pontualidade (acima, item 3) e desconto de 1 ponto por dia de atraso, por exemplo: se vc atrasar 1 dia, terá 1 ponto de desconto por atraso + 10 da pontualidade, totalizando 11 pontos a menos na nota.
+
+# Tecnologia utilizada:
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+## Tabela de Conteúdos
+
+- [Instalação](#Instalação)
+- [Uso](#Uso)
+- [Contribuição](#Contribuição)
+
+## Instalação
+
+1. Clone o repositório ou baixe o arquivo .zip:
+
+```bash
+git clone https://github.com/alfecjo/javaii.git
+```
+## Uso
+
+1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no VSCode! Você pode começar com: "mvn install", no diretório raiz, que é onde se encontra o
+   arquivo pom.xml. Desta forma, serão baixadas as dependências, caso seja necessário.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, abra um problema ou envie uma solicitação pull ao repositório.
+
+Ao contribuir para este projeto, siga o estilo de código existente, [convenções de commit](https://www.conventionalcommits.org/en/v1.0.0/), e envie suas alterações em um branch separado.
+
+Muito obrigado!!
