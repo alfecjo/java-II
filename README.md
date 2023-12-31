@@ -1,49 +1,38 @@
-# aaaJava II..
+# Java II..
 
 ## Este material foi desenvolvido em resposta a disciplina 'Java II', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
+
 🎉 Os projetos, são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo. Este exercício, foi considerado pelo professor e os demais colegas, como INICIANTE na disciplina Java II (_😎tirei nota máxima_), muito usado na criação de manipulação de aquivos em Java.
 
-## Corrida de Motocicletas
+## Sistema de Arquivos 
 
 😵 Objetivo:
 
-Exercitar o conceito e a prática de Race Condition e Critical Sections através do uso de sincronismo de métodos e/ou objetos para simular uma corrida de motos onde o ganhador é aquele que somar mais pontos ao acessar a região crítica (ou linha de chegada).
+Fixar o aprendizado da API de IO do Java através da construção de um sistema de arquivos virtual em Java
 
-👨‍💻 Requisitos:
+O sistema de arquivos será composto por uma aplicação de linha de comando que suporte os seguintes comandos:
 
-1. (10 pts) O programa deve criar no mínimo 10 threads que vão representar cada competidor, cada competidor deve usar o seguinte nome: Competidor #N (onde N é o número da thread)
+SHOW deverá mostrar o conteúdo de um determinado arquivo, caso seja usado em diretórios, deverá ser exibido um erro
+LIST deve listar o conteúdo do diretório atual
+BACK deve ser usado para sair de um diretório e ir para o seu "parente", caso seja usado na raiz, um erro deve ser exibido informando que não há como ir além do diretório raiz
+OPEN deve ser usado para abrir (ou acessar) um determinado diretório recebido como parâmetro
+DETAIL deve ser usado para detalhar informações de um arquivo ou diretório através da classe BasicFileAttributeView do NIO2, faça uma pesquisa na documentação da linguagem e/ou no material de apoio para entender como usar esta classe
 
-2. (10 pts) Haverá no mínimo 10 corridas
+👁️‍🗨️ Entrega
 
-3. (10 pts) Uma corrida só inicia após o fim da corrida anterior, ou seja, quando todos os competidores cruzarem a linha de chegada (área crítica)
-
-4. (30 pts) O placar da nossa corrida será contabilizado toda vez que um corredor cruzar a linha de chegada (área crítica), o competidor receberá pontos de acordo com sua posição de chegada ou seja: competidor 3 chegou primeiro na área sincronizada, recebe 10 pontos, o competidor 5 chegou em segundo, recebe 9 pontos, e assim sucessivamente até que o ultimo a cruzar a linha de chegada ganhe 1 ponto
-
-5. (10 pts) As 10 corridas formam um campeonato, ganhará aquele que somar o maior número de pontos no campeonato
-
-6. (10 pts) Ao final do campeonato deverá ser apresentado o placar com o total dos pontos e o pódio
+Enviar apenas os arquivos FileReader.java e Command.java. Não compacte, apenas envie pelo moodle.
 
 🕵️ Critérios de aceite e avaliação do exercício:
 
-1. Cada requisito possui um peso que compõe 80 pontos no total, cumpra todos para ter nota máxima, cumpra alguns e sua nota será aplicada conforme cada requisito implementado.
-
-2. Estrutura do código (uso das regras de escrita da linguagem, estrutura) e parametrização dos valores de corridas e competidores (sim, eu posso querer ter um campeonato com 20 participantes e 30 corridas) terão peso de 10 pontos
-
-3. Entrega no prazo, 10 pontos
-
-🎯 Importante:
-
-- Cópias e/ou exercícios duplicados/idênticos serão descartados, apenas os pontos da entrega (se feita no prazo) serão contabilizados.
-
-- Faça o programa todo em apenas uma classe, utilize recursos como classes aninhadas para organização, caso envie o projeto e/ou PDF's ou vários arquivos, sua atividade não será avaliada e o ato do reenvio da mesma incorrerá em desconto por atraso
-
-- Envie APENAS o arquivo .java do programa, nada mais.
-
-- O objetivo da atividade também é parte da avaliação!
-
-- Envios com atraso tem o desconto da pontualidade (acima, item 3) e desconto de 1 ponto por dia de atraso, por exemplo: se vc atrasar 1 dia, terá 1 ponto de desconto por atraso + 10 da pontualidade, totalizando 11 pontos a menos na nota.
+Interpretação do código faz parte da solução da atividade, utilize os recursos de debug para entender como ele funciona e fazer o que se pede
+Há alguns TODOS dentro do código para ajudar a encontrar os locais que precisam ser feitas as implementações
+Comandos inválidos ou que não estejam consistentes (ex.: um OPEN sem parâmetros) não devem quebrar a execução, caso o faça, haverá desconto de nota.
+Cada comando vale 20 pontos, totalizando 100 pontos
+Estamos em Java II, logo, espera-se um código que siga os padrões de linguagem da plataforma. O não uso dos padrões pode acarretar descontos de nota.
+Atividades em modo rascunho não são avaliadas, verifique se realizou o envio em definitivo
+Envios com atraso tem desconto de 1 ponto por dia de atraso.
 
 # Tecnologia utilizada:
 
