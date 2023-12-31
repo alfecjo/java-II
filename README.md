@@ -4,7 +4,7 @@
 
 🎉 Os projetos, são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo. Este exercício, foi considerado pelo professor e os demais colegas, como MEDIANO na disciplina Java II, muito usado na criação de estatísticas e tomada de decisões.
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo. Este exercício, foi considerado pelo professor e os demais colegas, como MEDIANO na disciplina Java II (_😎tirei nota máxima_), muito usado na criação de estatísticas e tomada de decisões.
 
 ## Contador de vendas 
 
