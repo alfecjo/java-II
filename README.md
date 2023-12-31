@@ -14,11 +14,11 @@ Fixar o aprendizado da API de IO do Java através da construção de um sistema 
 
 O sistema de arquivos será composto por uma aplicação de linha de comando que suporte os seguintes comandos:
 
-SHOW deverá mostrar o conteúdo de um determinado arquivo, caso seja usado em diretórios, deverá ser exibido um erro
-LIST deve listar o conteúdo do diretório atual
-BACK deve ser usado para sair de um diretório e ir para o seu "parente", caso seja usado na raiz, um erro deve ser exibido informando que não há como ir além do diretório raiz
-OPEN deve ser usado para abrir (ou acessar) um determinado diretório recebido como parâmetro
-DETAIL deve ser usado para detalhar informações de um arquivo ou diretório através da classe BasicFileAttributeView do NIO2, faça uma pesquisa na documentação da linguagem e/ou no material de apoio para entender como usar esta classe
+1. SHOW deverá mostrar o conteúdo de um determinado arquivo, caso seja usado em diretórios, deverá ser exibido um erro
+2. LIST deve listar o conteúdo do diretório atual
+3. BACK deve ser usado para sair de um diretório e ir para o seu "parente", caso seja usado na raiz, um erro deve ser exibido informando que não há como ir além do diretório raiz
+4. OPEN deve ser usado para abrir (ou acessar) um determinado diretório recebido como parâmetro
+5. DETAIL deve ser usado para detalhar informações de um arquivo ou diretório através da classe BasicFileAttributeView do NIO2, faça uma pesquisa na documentação da linguagem e/ou no material de apoio para entender como usar esta classe
 
 👁️‍🗨️ Entrega
 
