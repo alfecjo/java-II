@@ -26,13 +26,13 @@ Enviar apenas os arquivos FileReader.java e Command.java. Não compacte, apenas 
 
 🕵️ Critérios de aceite e avaliação do exercício:
 
-Interpretação do código faz parte da solução da atividade, utilize os recursos de debug para entender como ele funciona e fazer o que se pede
-Há alguns TODOS dentro do código para ajudar a encontrar os locais que precisam ser feitas as implementações
-Comandos inválidos ou que não estejam consistentes (ex.: um OPEN sem parâmetros) não devem quebrar a execução, caso o faça, haverá desconto de nota.
-Cada comando vale 20 pontos, totalizando 100 pontos
-Estamos em Java II, logo, espera-se um código que siga os padrões de linguagem da plataforma. O não uso dos padrões pode acarretar descontos de nota.
-Atividades em modo rascunho não são avaliadas, verifique se realizou o envio em definitivo
-Envios com atraso tem desconto de 1 ponto por dia de atraso.
+1. Interpretação do código faz parte da solução da atividade, utilize os recursos de debug para entender como ele funciona e fazer o que se pede
+2. Há alguns TODOS dentro do código para ajudar a encontrar os locais que precisam ser feitas as implementações
+3. Comandos inválidos ou que não estejam consistentes (ex.: um OPEN sem parâmetros) não devem quebrar a execução, caso o faça, haverá desconto de nota.
+4. Cada comando vale 20 pontos, totalizando 100 pontos
+5. Estamos em Java II, logo, espera-se um código que siga os padrões de linguagem da plataforma. O não uso dos padrões pode acarretar descontos de nota.
+6. Atividades em modo rascunho não são avaliadas, verifique se realizou o envio em definitivo
+7. Envios com atraso tem desconto de 1 ponto por dia de atraso.
 
 # Tecnologia utilizada:
 
