@@ -23,9 +23,7 @@ Exercitar o conceito e a prática de Race Condition e Critical Sections através
 
 5. (10 pts) As 10 corridas formam um campeonato, ganhará aquele que somar o maior número de pontos no campeonato
 
-6. (10 pts) Ao final do campeonato deverá ser apresentado o placar com o total dos pontos e o pódio, nesta estrutura:
-
-podio
+6. (10 pts) Ao final do campeonato deverá ser apresentado o placar com o total dos pontos e o pódio
 
 🕵️ Critérios de aceite e avaliação do exercício:
 
@@ -62,7 +60,7 @@ podio
 1. Clone o repositório ou baixe o arquivo .zip:
 
 ```bash
-git clone https://github.com/alfecjo/javaii.git
+git clone https://github.com/alfecjo/Java-II.git
 ```
 ## Uso
 
