@@ -53,7 +53,7 @@ git clone https://github.com/alfecjo/Java-II.git
 ```
 ## Uso
 
-1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no VSCode! Você pode começar com: "mvn install", no diretório raiz, que é onde se encontra o
+1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no IntelliJ! Você pode começar com: "mvn install", no diretório raiz, que é onde se encontra o
    arquivo pom.xml. Desta forma, serão baixadas as dependências, caso seja necessário.
 
 ## Contribuição
