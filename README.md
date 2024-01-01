@@ -3,7 +3,7 @@
 ## Este material foi desenvolvido em resposta a disciplina 'Java II', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
 🎉 Os projetos, são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...(claro!!! Guardadas as proporções de memória)
 
 ## Corrida de Motocicletas
 
