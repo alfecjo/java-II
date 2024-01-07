@@ -47,7 +47,7 @@ Exercitar o conceito e a prática de Race Condition e Critical Sections através
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
 
-[![Assista ao Vídeo de Apresentação dos Testes](https://img.youtube.com/vi/Xm-1FmxwFXU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Xm-1FmxwFXU)
+[![Assista ao Vídeo de Apresentação dos Testes](https://img.youtube.com/vi/2_WtivOfl_M/maxresdefault.jpg)](https://www.youtube.com/watch?v=2_WtivOfl_M)
 
 # Tecnologia utilizada:
 
