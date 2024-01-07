@@ -30,6 +30,10 @@ Nesta atividade vamos exercitar os conhecimentos de streams, date/time api entre
 
 8. Atividades em modo rascunho não são avaliadas, verifique se realizou o envio em definitivo
 
+### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
+
+[![Assista ao Vídeo de Apresentação dos Testes](https://img.youtube.com/vi/cvhe5aZTxZI/maxresdefault.jpg)](https://www.youtube.com/watch?v=cvhe5aZTxZI)
+
 # Tecnologia utilizada:
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
