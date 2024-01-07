@@ -5,7 +5,7 @@
 
 🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...(claro!!! Guardadas as proporções de memória)
 
-## Corrida de Motocicletas
+## Corrida de Motocicletas (Motor Race)
 
 😵 Objetivo:
 
