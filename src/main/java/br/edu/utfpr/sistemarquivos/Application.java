@@ -7,9 +7,12 @@ import java.util.Scanner;
 
 public class Application {
 
+  public static void main(String[] args) {
+        new Application();
+    }
+
     // TODO mudar esse caminho para o caminho da pasta "HD" no seu PC
-    //    OK!
-    public static final String ROOT = "D:" + File.separator + "IntellijWork" + File.separator + "hd";
+    public static final String ROOT = "D:" + File.separator + "IntellijWork"  + File.separator + "sistema-arquivos"+ File.separator + "hd";
 
     public Application() {
         executar();
@@ -36,9 +39,5 @@ public class Application {
         }
 
         System.out.println("Sistema de arquivos encerrado.");
-    }
-
-    public static void main(String[] args) {
-        new Application();
     }
 }

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3edd1499-a76d-4d89-aecd-accd546fbc89" name="Changes" comment="" />
+    <list default="true" id="fed5f034-6e68-4005-b627-0cebb7ad7c05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -19,11 +16,14 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2GVervVZ7kmAbCODp2NK2P9cKMN" />
+  <component name="ProjectId" id="2aeKlPhyTto1pzGkoyJNwLYcy7h" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -32,12 +32,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IntellijWork/sistema-arquivos&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -64,18 +62,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3edd1499-a76d-4d89-aecd-accd546fbc89" name="Changes" comment="" />
-      <created>1666478382763</created>
+      <changelist id="fed5f034-6e68-4005-b627-0cebb7ad7c05" name="Changes" comment="" />
+      <created>1704673760447</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666478382763</updated>
-      <workItem from="1666478383888" duration="50000" />
-      <workItem from="1688724300061" duration="15000" />
-      <workItem from="1688724390838" duration="28615000" />
-      <workItem from="1688773621168" duration="758000" />
-      <workItem from="1688813280142" duration="8000" />
-      <workItem from="1688813363804" duration="4029000" />
-      <workItem from="1704031684923" duration="259000" />
+      <updated>1704673760447</updated>
+      <workItem from="1704673761641" duration="728000" />
+      <workItem from="1704674822140" duration="202000" />
     </task>
     <servers />
   </component>
