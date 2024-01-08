@@ -34,6 +34,10 @@ Enviar apenas os arquivos FileReader.java e Command.java. Não compacte, apenas 
 6. Atividades em modo rascunho não são avaliadas, verifique se realizou o envio em definitivo
 7. Envios com atraso tem desconto de 1 ponto por dia de atraso.
 
+### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
+
+[![Assista ao Vídeo de Apresentação dos Testes](https://img.youtube.com/vi/2_WtivOfl_M/maxresdefault.jpg)](https://www.youtube.com/watch?v=2_WtivOfl_M)
+
 # Tecnologia utilizada:
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
